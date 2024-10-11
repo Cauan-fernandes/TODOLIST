@@ -3,16 +3,18 @@
   margin: none;
 }
 body {
-  background: url(https://wallpaperaccess.com/full/12676.jpg);
+  background: url(/assets/image/background.png);
+  background-size: cover;
 }
 
 main {
   width: 350px;
-  border: 1px solid #000;
-  background-color: aliceblue;
-  margin: 0 auto;
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  background-color: transparent;
+  margin: 20px auto;
   padding: 20px;
   border-radius: 20px;
+  backdrop-filter: blur(200px);
 }
 main h1 {
   text-align: center;
